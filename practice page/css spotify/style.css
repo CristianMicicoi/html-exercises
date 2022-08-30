@@ -1,0 +1,60 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+header {
+    background-color: #000;
+    height: 75px;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo_Spotify {
+    
+}
+
+.menu {
+    
+}
+
+.nav {
+    display: flex;
+    color: #fff;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+.links {
+}
+
+main {
+    background-color: #1ed760;
+    display: flex;
+}
+
+.download {
+
+}
+
+.button_style {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border-radius: 500px;
+}
