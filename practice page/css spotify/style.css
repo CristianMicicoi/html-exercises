@@ -6,13 +6,12 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-
+    background-color: #000;
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-weight: 700;
 }
 
 header {
@@ -39,6 +38,10 @@ header {
     gap: 30px;
     list-style: none;
 
+}
+
+.nav a:hover {
+    color: #1ed760;
 }
 
 h1 {
@@ -90,7 +93,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-button {
+.btn {
     text-align: center;
     background-color: #fff;
     cursor: pointer;
@@ -101,6 +104,24 @@ button {
     letter-spacing: -0.4px;
     width: 120px;
     height: 45px;
+    outline-color: #fff;
+    outline-offset: 4px;
+    outline-width: 3px;
+    transition: outline 100ms ease-in-out;
+    
+}
+
+.btn:focus {
+    outline: solid white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: whitesmoke;
+}
+
+.btn:active {
+    transform: scale(1);
 }
 
 .mobile-apps-section {
@@ -110,11 +131,16 @@ button {
     padding: 70px 0;
     height: 300px;
     justify-content: space-between;
+    background-color: white;
 }
 
 .os-buttons {
     display: flex;
     align-items: center;
+}
+
+.os-buttons a {
+    margin: 7px;
 }
 
 .img-devices {
@@ -137,25 +163,118 @@ button {
     list-style: none;
     gap: 10px;
     margin: 25px 0;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 30px;
     letter-spacing: 2.25px;
     text-transform: uppercase;
 }
 
-.green {
-    color: rgb(20, 131, 59)
+.devices-list a:hover {
+    color: rgb(30, 215, 96);
 }
 
-footer {
-    background-color: #000;
+.green {
+    color: rgb(29, 185, 84)
+}
+
+footer {    
     padding: 80px 0 50px;
     color: #919496;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.social-media {}
+footer .logo_Spotify {
+    margin-top: -20px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lists {    
+    width: 200px;
+    padding: 0 15px;
+}
+
+.lists a {
+    line-height: 1.5;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.social-media a img {
+    width: 24px;
+    background-color: white;
+}
+
+.social-media a:hover img {
+    background-color: #1ed760;
+}
+
+.social-media a {
+    background-color: #222326;
+    padding: 15px;
+    border-radius: 50%;
+    line-height: 0;
+    
+}
+
 
 .country {
+    text-align: right;
+    font-weight: 400;
+}
+
+.a-country {
     color: #919496;
+    font-size: 12px;
+}
+
+.spacer {
+    flex: 1 0;
+
+}
+
+.info {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.info span {
+    display: flex;
+    align-items: center;
+}
+
+.info li {
+    display: flex;
+}
+
+.info li a {
+    color: #919496;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+footer a:hover {
+    color: #1ed760;
 }
