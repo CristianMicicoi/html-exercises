@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(27, 110, 27);
+    height: 75px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+
+}
+
+.nav a:hover {
+    color: #1ed760;
+}
+
+.menubtn {
+    display: flex;
+    color: #fff;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+main {
+
+}
+
+.section-container {
+    max-width: 628px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #a7a7a7;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+
+    /* take out after gradient color */
+    padding-top: 30px;
+}
+
+.main-subtitle {
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.help {
+    color: #a7a7a7;
+}
+
+.help-login {
+
+}
+
+.search-form {
+
+}
+
+.search-lens {
+
+}
+
+.search-icon {
+
+}
+
+.search-input {
+
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.card {
+    position: relative;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 5px;
+    height: 92px;
+    overflow: hidden;
+}
+
+.card__title {
+    padding: 16px 16px 0;
+    width: 16ch;
+}
+
+.card__image {
+    position: absolute;
+    transform: rotate(27deg);
+    top: 28px;
+    right: -17px;
+}
+
+.card--purple {
+    background-color: rgb(175, 40, 150);
+}
+
+.card--red {
+    background-color: rgb(140, 25, 50);
+}
+
+.card--orange {
+    background-color: rgb(176, 98, 57);
+}
+
+.card--green {
+    background-color: rgb(0, 100, 80);
+}
+
+.card--gray {
+    background-color: rgb(117, 117, 117);
+}
+
+.card--blue {
+    background-color: rgb(83, 122, 161);
+}
+
