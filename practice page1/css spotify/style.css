@@ -30,8 +30,6 @@ header {
     padding: 0 15px;
 }
 
-.menu {}
-
 .nav {
     display: flex;
     color: #fff;
@@ -83,14 +81,14 @@ p {
 }
 
 .laptop_img {
-    width: 145px;
+    width: 140px;
 }
 
 .absolute-center {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-55%, -50%);
 }
 
 .btn {
@@ -235,7 +233,6 @@ footer .logo_Spotify {
     line-height: 0;
     
 }
-
 
 .country {
     text-align: right;
